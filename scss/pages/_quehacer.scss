@@ -1,0 +1,88 @@
+@mixin card{
+	background-color: $color_light;
+	color: $color_font_light;
+	width: 300px;
+	height: 520px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	padding: 20px 25px;
+	border-radius: 20px;
+	font-size: 20px;
+	&:hover{
+		transform: scale(1.1,1.1);
+		transition: all 1s;
+	}
+	&__img{
+		width: 100%;
+		height: 250px;
+		object-fit: cover;
+		display: block;
+		border-radius: inherit;
+	}
+	&__title{
+		margin-top: 30px;
+		margin-bottom: 15px;
+		padding-bottom: 10px;
+		border-bottom: 5px solid $color_font_light;
+		font-size: 20px;
+		font-weight: bolder;
+	}
+	&__cta{
+		display: block;
+		background-color: $color_dark_bg;
+		color: $color_font_light;
+		text-decoration: none;
+		margin-top: 20px;
+		padding: 15px 0;
+		font-weight: bold;
+		border-radius: 20px;
+		&:hover{
+			transform: scale(1.1,1.1);
+			color: $color_light;
+			font-weight: normal;
+			transition: all 1s;
+		}
+	}
+}
+.section10{
+    background-color: $color_dark_bg;
+    padding-bottom: 50px;
+	.p__section10{
+		color: $color_font_light;
+		text-align: center;
+		font-size: $font_size_mobile;
+		padding: 20px;
+		@media only screen and (min-width: 768px){
+			font-size: $font_size_desktop;
+		}
+	}
+	.div__section10--grid{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, 1fr);
+		gap: 40px;
+		@media only screen and (min-width: 768px){
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+			gap: 0;
+		}
+		.card1,
+		.card2,
+		.card3,
+		.card4{
+			@include card()
+		}
+		
+	}
+	.carousel__1-quehacer{
+		margin: 50px;
+		background-color: $color_dark;
+		border-radius: 20px;
+		.foto__carousel-1{
+			width: 500px;
+			height: auto;
+		}
+	}
+}

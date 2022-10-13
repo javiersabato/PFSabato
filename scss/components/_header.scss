@@ -1,0 +1,36 @@
+header{
+	nav{
+		.logo{
+			width: 100px;
+			height: 100px;
+			@media only screen and (min-width: 768px){
+				width: 150px;
+				height: 150px;
+			}
+		}
+		.menu{
+			list-style-type: none;
+			background-color: $color_dark;
+			padding: 0;
+			width: 100%;
+			display: flex;
+			justify-content: space-evenly;
+			.item{
+				font-size: $font_size_mobile;
+				text-align: center;
+				@media only screen and (min-width: 768px){	
+					font-size: $font_size_desktop;
+				}
+			}
+			a{
+				color: $color_font_light;
+				text-decoration: none;
+				font-weight: bolder;
+				padding: 20px;
+				&:hover{
+					color: $color_light;
+				}
+			}
+		}
+	}
+}

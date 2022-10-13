@@ -1,0 +1,50 @@
+footer{
+    background-color: $color_dark;
+    color: $color_font_light;
+    padding: 20px;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: flex-start;
+	.section6{
+		.logos__footer{
+			padding-top: 10px;
+			padding-bottom: 15px;
+			.a__section6{
+				text-decoration: none;
+				.img__section6__facebook{
+					width: 70px;
+					height: 70px;
+					border-radius: 20px;
+				}
+				.img__section6__instagram{
+					width: 60px;
+					height: 60px;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 768px){
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+.section7{
+	.form__section7{
+		border: 2px solid $color_font_light;
+		border-radius: 20px;
+		&--legend{
+			padding: 10px;
+		}
+		.div__form__newsletter{
+			padding: 20px;
+			.input__section7__newsletter{  
+				padding: 8px;
+				background-color: $color_dark_bg;
+				color: $color_font_light;
+				border-color: $color_font_light;
+				border-radius: 10px;
+				font-family: $font_text;
+			}
+		}
+	}
+}

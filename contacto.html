@@ -4,18 +4,19 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS only -->
+        <meta name="description" content="Formulario de contacto para consultas">
+        <meta name="keywords" content="contacto, consutas, dudas, preguntas, cataratas, Iguazú">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="icon" href="./assets/img/favicon.png">
-        <title>Infotucán | Contacto</title>
+        <title>Infotucán | Envíame tus consultas</title>
     </head>
     <body>
         <header>
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">
-                    <img style="width: 200px; height: 200px" src="./assets/img/logo.png" alt="Logo">
+                    <img class="logo" src="./assets/img/logo.png" alt="Logo">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -44,42 +45,49 @@
             <!-- Fin del menú de navegación -->
         </header>
         <!-- Inicio del formulario de contacto -->
-        <section class="section12">
-            <form class="form__section12" action="">
-                <fieldset>
-                    <legend class="legend__form">Formulario de Contacto</legend>
-                    <div class="div__form">
-                        <label for="name">Nombre</label>
-                        <br>
-                        <input class="input__name__form" type="text" name="name">
-                    </div>
-                    <div class="div__form">
-                        <label for="email">Correo Electrónico</label>
-                        <br>
-                        <input class="input__email__form" type="email" name="email" id="" required>
-                    </div>
-                    <div class="div__form">
-                        <label for="asunto">Asunto</label>
-                        <br>
-                        <select class="select__div__form" name="asunto" id="">
-                            <option value=""></option>
-                            <option value="comollegar">¿Cómo llegar?</option>
-                            <option value="quehacer">¿Qué hacer?</option>
-                            <option value="hospedaje">Hospedaje</option>
-                            <option value="otro">Otro</option>
-                        </select>
-                    </div>
-                    <div class="div__form">
-                        <label for="mensaje">Mensaje</label>
-                        <br>
-                        <textarea class="textarea__form" name="" id="" cols="30" rows="10" placeholder="Ingrese aquí su mensaje"></textarea>
-                    </div>
-                    <div class="div__form">
-                        <input class="input__form__submit" type="submit" value="Enviar">
-                    </div>
-                </fieldset>
-            </form>
-        </section>
+        <p class="p__contacto">Déjame tu mensaje, te responderé a la brevedad!</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <section class="section12">
+                        <form class="form__section12" action="">
+                            <fieldset>
+                                <legend class="legend__form">Formulario de Contacto</legend>
+                                <div class="div__form">
+                                    <label for="name">Nombre</label>
+                                    <br>
+                                    <input class="input__name__form" type="text" name="name">
+                                </div>
+                                <div class="div__form">
+                                    <label for="email">Correo Electrónico</label>
+                                    <br>
+                                    <input class="input__email__form" type="email" name="email" id="" required>
+                                </div>
+                                <div class="div__form">
+                                    <label for="asunto">Asunto</label>
+                                    <br>
+                                    <select class="select__div__form" name="asunto" id="">
+                                        <option value=""></option>
+                                        <option value="comollegar">¿Cómo llegar?</option>
+                                        <option value="quehacer">¿Qué hacer?</option>
+                                        <option value="hospedaje">Hospedaje</option>
+                                        <option value="otro">Otro</option>
+                                    </select>
+                                </div>
+                                <div class="div__form">
+                                    <label for="mensaje">Mensaje</label>
+                                    <br>
+                                    <textarea class="textarea__form" name="" id="" cols="30" rows="10" placeholder="Ingrese aquí su mensaje"></textarea>
+                                </div>
+                                <div class="div__form">
+                                    <input class="input__form__submit" type="submit" value="Enviar">
+                                </div>
+                            </fieldset>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
         <!-- Fin del formulario de contacto -->
         <footer>
             <!-- Inicio de la sección Redes sociales y Copyright -->

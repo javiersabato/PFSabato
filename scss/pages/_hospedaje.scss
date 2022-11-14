@@ -1,7 +1,7 @@
 .section11{
     background-color: $color_dark_bg;
     padding-bottom: 50px;
-	.p__section11{
+	&__p{
 		color: $color_font_light;
 		text-align: center;
 		font-size: $font_size_mobile;
@@ -10,7 +10,7 @@
 			font-size: $font_size_desktop;
 		}
 	}
-	.div__section11--grid{
+	&__div__grid{
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(6, 1fr);

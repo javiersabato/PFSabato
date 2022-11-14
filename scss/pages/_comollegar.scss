@@ -17,9 +17,9 @@
 		flex-direction: row;
 		justify-content: space-around;
 	}
-	.div__section8__img{
+	&__div__img{
 		text-align: center;
-		.img__section8{
+		&__img{
 			width: 302px;
 			height: 490px;
 			border-radius: 20px;
@@ -27,10 +27,9 @@
 			@media only screen and (min-width: 768px){
 				grid-area: img__grid8;
 			}
-
 		}
 	}
-	.p__section8{
+	&__p{
 		color: $color_font_light;
 		background-color: $color_dark_bg;
 		font-size: 20px;
@@ -45,9 +44,9 @@
 		}
 		
 	}
-	.div__section8__iframe{
+	&__div__iframe{
 		text-align: center;
-		.iframe__section8{
+		&__iframe{
 			width: 302px;
 			height: 490px;
 			border-radius: 20px;
@@ -62,7 +61,7 @@
 	h3{
 		font-size: 30px;
 	}
-	.section9__links{
+	&__links{
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
@@ -72,22 +71,22 @@
 			flex-direction: row;
 			justify-content: space-evenly;
 		}
-		.div__a__logoflybondi{
+		&__logoflybondi{
 			align-self: center;
-			.img__logoflybondi{
+			&__img{
 				width: 200px;
 				height: 150;
 				border-radius: 20px;
 			}
 		}
-		.div__a__logojetsmart{
-			.img__logojetsmart{
+		&__logojetsmart{
+			&__img{
 				width: 200px;
 				height: 150px;
 			}
 		}
-		.div__a__logoaerolineasargentinas{
-			.img__logoaerolineasargentinas{
+		&__logoaerolineasargentinas{
+			&__img{
 				width: 200px;
 				height: 150px;
 			}

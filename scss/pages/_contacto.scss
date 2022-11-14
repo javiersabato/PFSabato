@@ -1,4 +1,4 @@
-.p__contacto{
+.contacto__p{
 	text-align: center;
 	font-size: $font_size_mobile;
 	color: $color_font_light;
@@ -15,49 +15,49 @@
 	background-color: $color_dark_bg;
 	color: $color_font_light;
 	border-radius: 10px;
-	.form__section12{
+	&__form{
 		font-family: $font_text;
-		.legend__form{
+		&__legend{
 			font-size: $font_size_mobile;
 			padding: 10px;
 			@media only screen and (min-width: 768px){
 				font-size: $font_size_desktop;
 			}
 		}
-		.div__form{
+		&__div{
 			font-size: $font_size_mobile;
 			padding: 10px;
 			@media only screen and (min-width: 768px){
 				font-size: $font_size_desktop;
 			}
-			.input__name__form{
+			&__input__name{
 				font-size: $font_size_mobile;
 				font-family: $font_text;
 				padding: 5px;
 				border-radius: 10px;
 				width: 100%;
 			}
-			.input__email__form{
+			&__input__email{
 				font-size: $font_size_mobile;
 				font-family: $font_text;
 				padding: 5px;
 				border-radius: 10px;
 				width: 100%;
 			}
-			.select__div__form{
+			&__select{
 				padding: 5px;
 				font-family: $font_text;
 				border-radius: 10px;
 				width: 100%;
 			}
-			.textarea__form{
+			&__textarea{
 				font-family: $font_text;
 				padding: 5px;
 				border-radius: 10px;
 				width: 100%;
 				height: 300px;
 			}
-			.input__form__submit{
+			&__input__submit{
 				background-color: $color_dark_bg;
 				color: $color_font_light;
 				font-family: $font_text;

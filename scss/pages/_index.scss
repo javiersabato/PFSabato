@@ -38,24 +38,24 @@ h2{
 		font-size: $font_size_desktop;
 		flex-direction: row;
 	}
-}
-.img__menu__index{
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	@media only screen and (min-width: 768px){
-		font-size: $font_size_desktop;
-		width: 200px;
-		height: 200px;
+	&__img{
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		@media only screen and (min-width: 768px){
+			font-size: $font_size_desktop;
+			width: 200px;
+			height: 200px;
+		}
 	}
-}
-.p__menu__index{
-	color: $color_font_dark;
-	font-weight: bold;
-	text-align: center;
-	font-size: $font_size_mobile;
-	padding: 10px;
-	@media only screen and (min-width: 768px){
-		font-size: $font_size_desktop;
+	&__p{
+		color: $color_font_dark;
+		font-weight: bold;
+		text-align: center;
+		font-size: $font_size_mobile;
+		padding: 10px;
+		@media only screen and (min-width: 768px){
+			font-size: $font_size_desktop;
+		}
 	}
 }

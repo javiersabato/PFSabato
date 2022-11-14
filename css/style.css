@@ -8470,26 +8470,24 @@ h2, .h2 {
     .menu__index {
       font-size: 1.5rem;
       flex-direction: row; } }
-
-.img__menu__index {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%; }
-  @media only screen and (min-width: 768px) {
-    .img__menu__index {
-      font-size: 1.5rem;
-      width: 200px;
-      height: 200px; } }
-
-.p__menu__index {
-  color: #c4921b;
-  font-weight: bold;
-  text-align: center;
-  font-size: 1rem;
-  padding: 10px; }
-  @media only screen and (min-width: 768px) {
-    .p__menu__index {
-      font-size: 1.5rem; } }
+  .menu__index__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; }
+    @media only screen and (min-width: 768px) {
+      .menu__index__img {
+        font-size: 1.5rem;
+        width: 200px;
+        height: 200px; } }
+  .menu__index__p {
+    color: #c4921b;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px; }
+    @media only screen and (min-width: 768px) {
+      .menu__index__p {
+        font-size: 1.5rem; } }
 
 .section8 {
   background-color: #270015d5;
@@ -8508,17 +8506,17 @@ h2, .h2 {
       display: flex;
       flex-direction: row;
       justify-content: space-around; } }
-  .section8 .div__section8__img {
+  .section8__div__img {
     text-align: center; }
-    .section8 .div__section8__img .img__section8 {
+    .section8__div__img__img {
       width: 302px;
       height: 490px;
       border-radius: 20px;
       margin: 30px; }
       @media only screen and (min-width: 768px) {
-        .section8 .div__section8__img .img__section8 {
+        .section8__div__img__img {
           grid-area: img__grid8; } }
-  .section8 .p__section8 {
+  .section8__p {
     color: #c4a72c;
     background-color: #270015d5;
     font-size: 20px;
@@ -8528,72 +8526,72 @@ h2, .h2 {
     margin: 30px;
     border-radius: 20px; }
     @media only screen and (min-width: 768px) {
-      .section8 .p__section8 {
+      .section8__p {
         grid-area: p__grid8;
         text-align: justify; } }
-  .section8 .div__section8__iframe {
+  .section8__div__iframe {
     text-align: center; }
-    .section8 .div__section8__iframe .iframe__section8 {
+    .section8__div__iframe__iframe {
       width: 302px;
       height: 490px;
       border-radius: 20px;
       margin: 30px; }
       @media only screen and (min-width: 768px) {
-        .section8 .div__section8__iframe .iframe__section8 {
+        .section8__div__iframe__iframe {
           grid-area: iframe__grid8; } }
 
 .section9 h3, .section9 .h3 {
   font-size: 30px; }
 
-.section9 .section9__links {
+.section9__links {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center; }
   @media only screen and (min-width: 768px) {
-    .section9 .section9__links {
+    .section9__links {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly; } }
-  .section9 .section9__links .div__a__logoflybondi {
+  .section9__links__logoflybondi {
     align-self: center; }
-    .section9 .section9__links .div__a__logoflybondi .img__logoflybondi {
+    .section9__links__logoflybondi__img {
       width: 200px;
       height: 150;
       border-radius: 20px; }
-  .section9 .section9__links .div__a__logojetsmart .img__logojetsmart {
+  .section9__links__logojetsmart__img {
     width: 200px;
     height: 150px; }
-  .section9 .section9__links .div__a__logoaerolineasargentinas .img__logoaerolineasargentinas {
+  .section9__links__logoaerolineasargentinas__img {
     width: 200px;
     height: 150px; }
 
 .section10 {
   background-color: #270015d5;
   padding-bottom: 50px; }
-  .section10 .p__section10 {
+  .section10__p {
     color: #c4a72c;
-    text-align: center;
+    text-align: left;
     font-size: 1rem;
     padding: 20px; }
     @media only screen and (min-width: 768px) {
-      .section10 .p__section10 {
+      .section10__p {
         font-size: 1.5rem; } }
-  .section10 .div__section10--grid {
+  .section10__div__grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     gap: 40px; }
     @media only screen and (min-width: 768px) {
-      .section10 .div__section10--grid {
+      .section10__div__grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 0; } }
-    .section10 .div__section10--grid .card1,
-    .section10 .div__section10--grid .card2,
-    .section10 .div__section10--grid .card3,
-    .section10 .div__section10--grid .card4 {
+    .section10__div__grid .card1,
+    .section10__div__grid .card2,
+    .section10__div__grid .card3,
+    .section10__div__grid .card4 {
       background-color: #fcfbf5;
       color: #c4a72c;
       width: 300px;
@@ -8604,35 +8602,35 @@ h2, .h2 {
       padding: 20px 25px;
       border-radius: 20px;
       font-size: 20px; }
-      .section10 .div__section10--grid .card1:hover,
-      .section10 .div__section10--grid .card2:hover,
-      .section10 .div__section10--grid .card3:hover,
-      .section10 .div__section10--grid .card4:hover {
+      .section10__div__grid .card1:hover,
+      .section10__div__grid .card2:hover,
+      .section10__div__grid .card3:hover,
+      .section10__div__grid .card4:hover {
         transform: scale(1.1, 1.1);
         transition: all 1s; }
-      .section10 .div__section10--grid .card1__img,
-      .section10 .div__section10--grid .card2__img,
-      .section10 .div__section10--grid .card3__img,
-      .section10 .div__section10--grid .card4__img {
+      .section10__div__grid .card1__img,
+      .section10__div__grid .card2__img,
+      .section10__div__grid .card3__img,
+      .section10__div__grid .card4__img {
         width: 100%;
         height: 250px;
         object-fit: cover;
         display: block;
         border-radius: inherit; }
-      .section10 .div__section10--grid .card1__title,
-      .section10 .div__section10--grid .card2__title,
-      .section10 .div__section10--grid .card3__title,
-      .section10 .div__section10--grid .card4__title {
+      .section10__div__grid .card1__title,
+      .section10__div__grid .card2__title,
+      .section10__div__grid .card3__title,
+      .section10__div__grid .card4__title {
         margin-top: 30px;
         margin-bottom: 15px;
         padding-bottom: 10px;
         border-bottom: 5px solid #c4a72c;
         font-size: 20px;
         font-weight: bolder; }
-      .section10 .div__section10--grid .card1__cta,
-      .section10 .div__section10--grid .card2__cta,
-      .section10 .div__section10--grid .card3__cta,
-      .section10 .div__section10--grid .card4__cta {
+      .section10__div__grid .card1__cta,
+      .section10__div__grid .card2__cta,
+      .section10__div__grid .card3__cta,
+      .section10__div__grid .card4__cta {
         display: block;
         background-color: #270015d5;
         color: #c4a72c;
@@ -8641,10 +8639,10 @@ h2, .h2 {
         padding: 15px 0;
         font-weight: bold;
         border-radius: 20px; }
-        .section10 .div__section10--grid .card1__cta:hover,
-        .section10 .div__section10--grid .card2__cta:hover,
-        .section10 .div__section10--grid .card3__cta:hover,
-        .section10 .div__section10--grid .card4__cta:hover {
+        .section10__div__grid .card1__cta:hover,
+        .section10__div__grid .card2__cta:hover,
+        .section10__div__grid .card3__cta:hover,
+        .section10__div__grid .card4__cta:hover {
           transform: scale(1.1, 1.1);
           color: #fcfbf5;
           font-weight: normal;
@@ -8652,45 +8650,43 @@ h2, .h2 {
   .section10 .carousel__1-quehacer {
     margin: 50px;
     background-color: #270015;
-    border-radius: 20px; }
-    .section10 .carousel__1-quehacer .foto__carousel-1 {
-      width: 500px;
-      height: auto; }
+    border-radius: 20px;
+    margin: 0 auto; }
 
 .section11 {
   background-color: #270015d5;
   padding-bottom: 50px; }
-  .section11 .p__section11 {
+  .section11__p {
     color: #c4a72c;
     text-align: center;
     font-size: 1rem;
     padding: 20px; }
     @media only screen and (min-width: 768px) {
-      .section11 .p__section11 {
+      .section11__p {
         font-size: 1.5rem; } }
-  .section11 .div__section11--grid {
+  .section11__div__grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
     gap: 40px; }
     @media only screen and (min-width: 768px) {
-      .section11 .div__section11--grid {
+      .section11__div__grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 40px; } }
     @media only screen and (min-width: 1023px) {
-      .section11 .div__section11--grid {
+      .section11__div__grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 40px; } }
-    .section11 .div__section11--grid .card1__hospedaje,
-    .section11 .div__section11--grid .card2__hospedaje,
-    .section11 .div__section11--grid .card3__hospedaje,
-    .section11 .div__section11--grid .card4__hospedaje,
-    .section11 .div__section11--grid .card5__hospedaje,
-    .section11 .div__section11--grid .card6__hospedaje {
+    .section11__div__grid .card1__hospedaje,
+    .section11__div__grid .card2__hospedaje,
+    .section11__div__grid .card3__hospedaje,
+    .section11__div__grid .card4__hospedaje,
+    .section11__div__grid .card5__hospedaje,
+    .section11__div__grid .card6__hospedaje {
       background-color: #fcfbf5;
       color: #c4a72c;
       width: 300px;
@@ -8701,43 +8697,43 @@ h2, .h2 {
       padding: 20px 25px;
       border-radius: 20px;
       font-size: 20px; }
-      .section11 .div__section11--grid .card1__hospedaje:hover,
-      .section11 .div__section11--grid .card2__hospedaje:hover,
-      .section11 .div__section11--grid .card3__hospedaje:hover,
-      .section11 .div__section11--grid .card4__hospedaje:hover,
-      .section11 .div__section11--grid .card5__hospedaje:hover,
-      .section11 .div__section11--grid .card6__hospedaje:hover {
+      .section11__div__grid .card1__hospedaje:hover,
+      .section11__div__grid .card2__hospedaje:hover,
+      .section11__div__grid .card3__hospedaje:hover,
+      .section11__div__grid .card4__hospedaje:hover,
+      .section11__div__grid .card5__hospedaje:hover,
+      .section11__div__grid .card6__hospedaje:hover {
         transform: scale(1.1, 1.1);
         transition: all 1s; }
-      .section11 .div__section11--grid .card1__hospedaje__img,
-      .section11 .div__section11--grid .card2__hospedaje__img,
-      .section11 .div__section11--grid .card3__hospedaje__img,
-      .section11 .div__section11--grid .card4__hospedaje__img,
-      .section11 .div__section11--grid .card5__hospedaje__img,
-      .section11 .div__section11--grid .card6__hospedaje__img {
+      .section11__div__grid .card1__hospedaje__img,
+      .section11__div__grid .card2__hospedaje__img,
+      .section11__div__grid .card3__hospedaje__img,
+      .section11__div__grid .card4__hospedaje__img,
+      .section11__div__grid .card5__hospedaje__img,
+      .section11__div__grid .card6__hospedaje__img {
         width: 100%;
         height: 250px;
         object-fit: cover;
         display: block;
         border-radius: inherit; }
-      .section11 .div__section11--grid .card1__hospedaje__title,
-      .section11 .div__section11--grid .card2__hospedaje__title,
-      .section11 .div__section11--grid .card3__hospedaje__title,
-      .section11 .div__section11--grid .card4__hospedaje__title,
-      .section11 .div__section11--grid .card5__hospedaje__title,
-      .section11 .div__section11--grid .card6__hospedaje__title {
+      .section11__div__grid .card1__hospedaje__title,
+      .section11__div__grid .card2__hospedaje__title,
+      .section11__div__grid .card3__hospedaje__title,
+      .section11__div__grid .card4__hospedaje__title,
+      .section11__div__grid .card5__hospedaje__title,
+      .section11__div__grid .card6__hospedaje__title {
         margin-top: 30px;
         margin-bottom: 15px;
         padding-bottom: 10px;
         border-bottom: 5px solid #c4a72c;
         font-size: 20px;
         font-weight: bolder; }
-      .section11 .div__section11--grid .card1__hospedaje__cta,
-      .section11 .div__section11--grid .card2__hospedaje__cta,
-      .section11 .div__section11--grid .card3__hospedaje__cta,
-      .section11 .div__section11--grid .card4__hospedaje__cta,
-      .section11 .div__section11--grid .card5__hospedaje__cta,
-      .section11 .div__section11--grid .card6__hospedaje__cta {
+      .section11__div__grid .card1__hospedaje__cta,
+      .section11__div__grid .card2__hospedaje__cta,
+      .section11__div__grid .card3__hospedaje__cta,
+      .section11__div__grid .card4__hospedaje__cta,
+      .section11__div__grid .card5__hospedaje__cta,
+      .section11__div__grid .card6__hospedaje__cta {
         display: block;
         background-color: #270015d5;
         color: #c4a72c;
@@ -8746,25 +8742,25 @@ h2, .h2 {
         padding: 15px 0;
         font-weight: bold;
         border-radius: 20px; }
-        .section11 .div__section11--grid .card1__hospedaje__cta:hover,
-        .section11 .div__section11--grid .card2__hospedaje__cta:hover,
-        .section11 .div__section11--grid .card3__hospedaje__cta:hover,
-        .section11 .div__section11--grid .card4__hospedaje__cta:hover,
-        .section11 .div__section11--grid .card5__hospedaje__cta:hover,
-        .section11 .div__section11--grid .card6__hospedaje__cta:hover {
+        .section11__div__grid .card1__hospedaje__cta:hover,
+        .section11__div__grid .card2__hospedaje__cta:hover,
+        .section11__div__grid .card3__hospedaje__cta:hover,
+        .section11__div__grid .card4__hospedaje__cta:hover,
+        .section11__div__grid .card5__hospedaje__cta:hover,
+        .section11__div__grid .card6__hospedaje__cta:hover {
           transform: scale(1.1, 1.1);
           color: #fcfbf5;
           font-weight: lighter;
           transition: all 1s; }
 
-.p__contacto {
+.contacto__p {
   text-align: center;
   font-size: 1rem;
   color: #c4a72c;
   background-color: #270015d5;
   padding: 20px; }
   @media only screen and (min-width: 768px) {
-    .p__contacto {
+    .contacto__p {
       font-size: 1.5rem; } }
 
 .section12 {
@@ -8774,44 +8770,44 @@ h2, .h2 {
   background-color: #270015d5;
   color: #c4a72c;
   border-radius: 10px; }
-  .section12 .form__section12 {
+  .section12__form {
     font-family: "Comfortaa-Light"; }
-    .section12 .form__section12 .legend__form {
+    .section12__form__legend {
       font-size: 1rem;
       padding: 10px; }
       @media only screen and (min-width: 768px) {
-        .section12 .form__section12 .legend__form {
+        .section12__form__legend {
           font-size: 1.5rem; } }
-    .section12 .form__section12 .div__form {
+    .section12__form__div {
       font-size: 1rem;
       padding: 10px; }
       @media only screen and (min-width: 768px) {
-        .section12 .form__section12 .div__form {
+        .section12__form__div {
           font-size: 1.5rem; } }
-      .section12 .form__section12 .div__form .input__name__form {
+      .section12__form__div__input__name {
         font-size: 1rem;
         font-family: "Comfortaa-Light";
         padding: 5px;
         border-radius: 10px;
         width: 100%; }
-      .section12 .form__section12 .div__form .input__email__form {
+      .section12__form__div__input__email {
         font-size: 1rem;
         font-family: "Comfortaa-Light";
         padding: 5px;
         border-radius: 10px;
         width: 100%; }
-      .section12 .form__section12 .div__form .select__div__form {
+      .section12__form__div__select {
         padding: 5px;
         font-family: "Comfortaa-Light";
         border-radius: 10px;
         width: 100%; }
-      .section12 .form__section12 .div__form .textarea__form {
+      .section12__form__div__textarea {
         font-family: "Comfortaa-Light";
         padding: 5px;
         border-radius: 10px;
         width: 100%;
         height: 300px; }
-      .section12 .form__section12 .div__form .input__form__submit {
+      .section12__form__div__input__submit {
         background-color: #270015d5;
         color: #c4a72c;
         font-family: "Comfortaa-Light";
@@ -8832,28 +8828,28 @@ footer {
   footer .section6 .logos__footer {
     padding-top: 10px;
     padding-bottom: 15px; }
-    footer .section6 .logos__footer .a__section6 {
+    footer .section6 .logos__footer__a {
       text-decoration: none; }
-      footer .section6 .logos__footer .a__section6 .img__section6__facebook {
-        width: 70px;
-        height: 70px;
-        border-radius: 20px; }
-      footer .section6 .logos__footer .a__section6 .img__section6__instagram {
-        width: 60px;
-        height: 60px; }
+    footer .section6 .logos__footer__img__facebook {
+      width: 70px;
+      height: 70px;
+      border-radius: 20px; }
+    footer .section6 .logos__footer__img__instagram {
+      width: 60px;
+      height: 60px; }
   @media only screen and (min-width: 768px) {
     footer {
       flex-direction: row;
       justify-content: space-between; } }
 
-.section7 .form__section7 {
+.section7 .section7__form {
   border: 2px solid #c4a72c;
   border-radius: 20px; }
-  .section7 .form__section7--legend {
+  .section7 .section7__form__legend {
     padding: 10px; }
-  .section7 .form__section7 .div__form__newsletter {
+  .section7 .section7__form .div__form__newsletter {
     padding: 20px; }
-    .section7 .form__section7 .div__form__newsletter .input__section7__newsletter {
+    .section7 .section7__form .div__form__newsletter__input {
       padding: 8px;
       background-color: #270015d5;
       color: #c4a72c;

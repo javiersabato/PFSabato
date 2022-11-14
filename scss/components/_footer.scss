@@ -9,17 +9,17 @@ footer{
 		.logos__footer{
 			padding-top: 10px;
 			padding-bottom: 15px;
-			.a__section6{
+			&__a{
 				text-decoration: none;
-				.img__section6__facebook{
-					width: 70px;
-					height: 70px;
-					border-radius: 20px;
-				}
-				.img__section6__instagram{
-					width: 60px;
-					height: 60px;
-				}
+			}
+			&__img__facebook{
+				width: 70px;
+				height: 70px;
+				border-radius: 20px;
+			}
+			&__img__instagram{
+				width: 60px;
+				height: 60px;
 			}
 		}
 	}
@@ -29,15 +29,15 @@ footer{
 	}
 }
 .section7{
-	.form__section7{
+	.section7__form{
 		border: 2px solid $color_font_light;
 		border-radius: 20px;
-		&--legend{
+		&__legend{
 			padding: 10px;
 		}
 		.div__form__newsletter{
 			padding: 20px;
-			.input__section7__newsletter{  
+			&__input{  
 				padding: 8px;
 				background-color: $color_dark_bg;
 				color: $color_font_light;

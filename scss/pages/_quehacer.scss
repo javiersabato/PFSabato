@@ -1,16 +1,16 @@
 .section10{
     background-color: $color_dark_bg;
     padding-bottom: 50px;
-	.p__section10{
+	&__p{
 		color: $color_font_light;
-		text-align: center;
+		text-align: left;
 		font-size: $font_size_mobile;
 		padding: 20px;
 		@media only screen and (min-width: 768px){
 			font-size: $font_size_desktop;
 		}
 	}
-	.div__section10--grid{
+	&__div__grid{
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(4, 1fr);
@@ -33,9 +33,6 @@
 		margin: 50px;
 		background-color: $color_dark;
 		border-radius: 20px;
-		.foto__carousel-1{
-			width: 500px;
-			height: auto;
-		}
+		margin: 0 auto;
 	}
 }
